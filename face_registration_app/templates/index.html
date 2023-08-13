@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Button</title>
+</head>
+<body>
+    <h1>Name Entry</h1>
+    <form method="POST" action="/face_registration">
+        <label for="name">Enter your name, wait for 10 seconds after you hit submit:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Submit</button>
+    </form> 
+
+    <h1>Press the Button to start face recognition</h1>
+    <form method="POST" action="/face_scan">
+        <button type="submit">Click me</button>
+    </form>
+</body>
+</html>
